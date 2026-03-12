@@ -73,7 +73,7 @@ export const EVENT_BANK = [
   },
   {
     "id": 13,
-    "title": "三十年战争爆发",
+    "title": "三十年宗教战争爆发",
     "description": "欧洲大规模宗教与权力战争开始。",
     "date": "1618-05-23"
   },
@@ -157,7 +157,7 @@ export const EVENT_BANK = [
   },
   {
     "id": 27,
-    "title": "英国《1832年改革法案》",
+    "title": "英国《议会改革法案》",
     "description": "议会席位重分配，英国代议政治进一步改革。",
     "date": "1832-06-07"
   },
@@ -169,7 +169,7 @@ export const EVENT_BANK = [
   },
   {
     "id": 29,
-    "title": "欧洲1848年革命浪潮",
+    "title": "欧洲自由与民族革命浪潮",
     "description": "自由主义与民族主义运动席卷欧洲多地。",
     "date": "1848-02-24"
   },
