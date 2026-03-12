@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashback Timeline</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <h1>Flashback Timeline</h1>
+        <p>把事件插入到正确的时间位置</p>
+      </header>
+
+      <section class="stats">
+        <div class="stat-card">
+          <span>当前分数</span>
+          <strong data-score>0</strong>
+        </div>
+        <div class="stat-card">
+          <span>已完成题数</span>
+          <strong data-progress>0 / 8</strong>
+        </div>
+      </section>
+
+      <section class="panel current-panel">
+        <h2>待插入事件</h2>
+        <article data-current-card></article>
+      </section>
+
+      <section class="panel">
+        <h2>时间轴</h2>
+        <ul class="timeline" data-timeline></ul>
+      </section>
+
+      <p class="feedback" data-feedback>准备好了就开始吧！</p>
+
+      <section class="result" data-result hidden>
+        <h2>本轮结束</h2>
+        <p data-result-text></p>
+        <button type="button" data-restart>重新开始</button>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>
